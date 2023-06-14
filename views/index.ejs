@@ -1,0 +1,20 @@
+
+<%- include("../partials/meta") %>
+<%- include("../partials/navbar")%>
+
+<body>
+    <h1>HI This is first file</h1>
+    <form class="bg-gray-200 ml-[20rem] w-[16rem] mt-[6rem]" action="/register" method="post">
+      
+       <div> <input type="text" name="name" class="bg-black text-white font-extrabold mt-3" autocomplete="off" required placeholder="Enter name"> </div>
+        <div><input type="text" name="email" class="bg-black text-white font-extrabold mt-3" autocomplete="off" required placeholder="Enter Email"> </div>
+        <div><input type="text" name="phone" class="bg-black text-white font-extrabold mt-3" autocomplete="off" required placeholder="Enter phone"> </div>
+        <div> <input type="text" name="password" class="bg-black text-white font-extrabold mt-3" autocomplete="off" required placeholder="Password"> </div>
+        <div> <input type="text" name="confpassword" class="bg-black text-white font-extrabold mt-3" autocomplete="off" required placeholder="Conform password"> </div>
+
+        <button type="submit" class="bg-black text-white font-extrabold mt-3">submit</button>
+
+    </form>
+    
+</body>
+</html>
